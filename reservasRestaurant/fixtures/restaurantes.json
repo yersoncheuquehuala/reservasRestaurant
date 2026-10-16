@@ -1,0 +1,42 @@
+[
+    {
+        "model": "reservasRestaurant.restaurante",
+        "pk": 1,
+        "fields": {
+            "nombre": "Sucursal Centro",
+            "direccion": "Av. Principal 450, Local 1",
+            "telefono": "+56911223344",
+            "email_contacto": "centro@cadenagastronomica.cl",
+            "sitio_web": "https://www.cadenagastronomica.cl/centro",
+            "hora_apertura": "12:00:00",
+            "hora_cierre": "23:30:00",
+            "capacidad_total": 60,
+            "tiempo_tolerancia_minutos": 15,
+            "informacion_publica": "Contamos con estacionamiento gratuito y opciones de menú vegetariano.",
+            "politicas_internas_privadas": "No juntar más de 3 mesas en horario punta (20:00 a 22:00). Priorizar rotación rápida.",
+            "activo": true,
+            "created_at": "2026-10-15T10:05:00Z",
+            "updated_at": "2026-10-15T10:05:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.restaurante",
+        "pk": 2,
+        "fields": {
+            "nombre": "Sucursal Costanera",
+            "direccion": "Paseo del Lago 1020",
+            "telefono": "+56955667788",
+            "email_contacto": "costanera@cadenagastronomica.cl",
+            "sitio_web": "https://www.cadenagastronomica.cl/costanera",
+            "hora_apertura": "13:00:00",
+            "hora_cierre": "00:00:00",
+            "capacidad_total": 80,
+            "tiempo_tolerancia_minutos": 20,
+            "informacion_publica": "Terraza climatizada con vista panorámica. Se permiten mascotas en el sector exterior.",
+            "politicas_internas_privadas": "En caso de lluvia o viento fuerte, bloquear reservas en sector Terraza y reubicar en Salón.",
+            "activo": true,
+            "created_at": "2026-10-15T10:05:00Z",
+            "updated_at": "2026-10-15T10:05:00Z"
+        }
+    }
+]

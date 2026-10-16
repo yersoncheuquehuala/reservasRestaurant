@@ -1,0 +1,41 @@
+[
+    {
+        "model": "reservasRestaurant.rol",
+        "pk": 1,
+        "fields": {
+            "nombre": "Administrador",
+            "descripcion": "Acceso total a la configuración de sucursales, mesas, reglas de negocio y reportes de auditoría.",
+            "nivel_acceso": 3,
+            "es_administrador": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:00:00Z",
+            "updated_at": "2026-10-15T10:00:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.rol",
+        "pk": 2,
+        "fields": {
+            "nombre": "Recepcionista",
+            "descripcion": "Personal operativo del local. Gestiona llegadas de clientes, asignación de mesas y situaciones excepcionales.",
+            "nivel_acceso": 2,
+            "es_administrador": false,
+            "activo": true,
+            "created_at": "2026-10-15T10:00:00Z",
+            "updated_at": "2026-10-15T10:00:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.rol",
+        "pk": 3,
+        "fields": {
+            "nombre": "Cliente",
+            "descripcion": "Usuario externo que realiza, consulta y cancela sus propias reservas online.",
+            "nivel_acceso": 1,
+            "es_administrador": false,
+            "activo": true,
+            "created_at": "2026-10-15T10:00:00Z",
+            "updated_at": "2026-10-15T10:00:00Z"
+        }
+    }
+]

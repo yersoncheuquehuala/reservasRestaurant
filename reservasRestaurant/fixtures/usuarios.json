@@ -1,0 +1,74 @@
+[
+    {
+        "model": "reservasRestaurant.usuario",
+        "pk": 1,
+        "fields": {
+            "rol": 1,
+            "nombre": "Carlos",
+            "apellidos": "Mendoza Rojas",
+            "email": "cmendoza@cadenagastronomica.cl",
+            "telefono": "+56990001111",
+            "password": "123456",
+            "calificacion_comportamiento": 5.0,
+            "total_inasistencias": 0,
+            "ultimo_acceso": "2026-10-15T11:00:00Z",
+            "activo": true,
+            "created_at": "2026-10-15T10:15:00Z",
+            "updated_at": "2026-10-15T11:00:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.usuario",
+        "pk": 2,
+        "fields": {
+            "rol": 2,
+            "nombre": "Valentina",
+            "apellidos": "Soto Lagos",
+            "email": "vsoto@cadenagastronomica.cl",
+            "telefono": "+56990002222",
+            "password": "123456",
+            "calificacion_comportamiento": 5.0,
+            "total_inasistencias": 0,
+            "ultimo_acceso": "2026-10-15T11:30:00Z",
+            "activo": true,
+            "created_at": "2026-10-15T10:15:00Z",
+            "updated_at": "2026-10-15T11:30:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.usuario",
+        "pk": 3,
+        "fields": {
+            "rol": 3,
+            "nombre": "Matías",
+            "apellidos": "Vargas Silva",
+            "email": "matias.vargas@correo.cl",
+            "telefono": "+56988776655",
+            "password": "123456",
+            "calificacion_comportamiento": 5.0,
+            "total_inasistencias": 0,
+            "ultimo_acceso": "2026-10-15T12:00:00Z",
+            "activo": true,
+            "created_at": "2026-10-15T10:20:00Z",
+            "updated_at": "2026-10-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.usuario",
+        "pk": 4,
+        "fields": {
+            "rol": 3,
+            "nombre": "Camila",
+            "apellidos": "Herrera Díaz",
+            "email": "camila.herrera@correo.cl",
+            "telefono": "+56977665544",
+            "password": "123456",
+            "calificacion_comportamiento": 3.5,
+            "total_inasistencias": 2,
+            "ultimo_acceso": "2026-10-14T19:45:00Z",
+            "activo": true,
+            "created_at": "2026-10-01T15:00:00Z",
+            "updated_at": "2026-10-14T19:45:00Z"
+        }
+    }
+]

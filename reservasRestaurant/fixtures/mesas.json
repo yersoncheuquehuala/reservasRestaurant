@@ -1,0 +1,77 @@
+[
+    {
+        "model": "reservasRestaurant.mesa",
+        "pk": 1,
+        "fields": {
+            "restaurante": 1,
+            "codigo_mesa": "CEN-M01",
+            "numero_mesa": 1,
+            "capacidad_personas": 2,
+            "ubicacion": "Salón Principal",
+            "disponible": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:10:00Z",
+            "updated_at": "2026-10-15T10:10:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.mesa",
+        "pk": 2,
+        "fields": {
+            "restaurante": 1,
+            "codigo_mesa": "CEN-M02",
+            "numero_mesa": 2,
+            "capacidad_personas": 4,
+            "ubicacion": "Salón Principal",
+            "disponible": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:10:00Z",
+            "updated_at": "2026-10-15T10:10:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.mesa",
+        "pk": 3,
+        "fields": {
+            "restaurante": 1,
+            "codigo_mesa": "CEN-VIP01",
+            "numero_mesa": 3,
+            "capacidad_personas": 8,
+            "ubicacion": "Salón VIP",
+            "disponible": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:10:00Z",
+            "updated_at": "2026-10-15T10:10:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.mesa",
+        "pk": 4,
+        "fields": {
+            "restaurante": 2,
+            "codigo_mesa": "COS-T01",
+            "numero_mesa": 1,
+            "capacidad_personas": 4,
+            "ubicacion": "Terraza",
+            "disponible": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:10:00Z",
+            "updated_at": "2026-10-15T10:10:00Z"
+        }
+    },
+    {
+        "model": "reservasRestaurant.mesa",
+        "pk": 5,
+        "fields": {
+            "restaurante": 2,
+            "codigo_mesa": "COS-S01",
+            "numero_mesa": 2,
+            "capacidad_personas": 6,
+            "ubicacion": "Salón Interior",
+            "disponible": true,
+            "activo": true,
+            "created_at": "2026-10-15T10:10:00Z",
+            "updated_at": "2026-10-15T10:10:00Z"
+        }
+    }
+]
