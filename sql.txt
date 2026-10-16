@@ -1,0 +1,4 @@
+CREATE DATABASE reservasRestaurant;
+CREATE USER 'Admin'@'%' IDENTIFIED BY 'password123';
+GRANT ALL PRIVILEGES ON reservasRestaurant.* TO 'Admin'@'%';
+FLUSH PRIVILEGES;
